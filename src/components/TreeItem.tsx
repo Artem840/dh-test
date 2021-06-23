@@ -1,8 +1,8 @@
 import { FC, useState } from "react";
 import { Tree } from "./Tree";
-import { useAppDispatch } from "./redux/hooks";
-import { ContentItemDTO, fetchContentItem } from "./redux/contentReducer";
-import { StyledTreeItem } from "./styles";
+import { useAppDispatch } from "../redux/hooks";
+import { ContentItemDTO, fetchContentItem } from "../redux/contentReducer";
+import { StyledTreeItem } from "../styles";
 import { unwrapResult } from "@reduxjs/toolkit";
 import { Spin } from "antd";
 

@@ -1,5 +1,5 @@
 import { FC } from "react"
-import { ContentItemDTO } from "./redux/contentReducer"
+import { ContentItemDTO } from "../redux/contentReducer"
 import {TreeItem} from "./TreeItem";
 
 interface Props {

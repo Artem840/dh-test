@@ -1,8 +1,8 @@
 import { FC } from "react";
 import {Alert, Empty, Spin} from "antd";
 import { Tree } from "./Tree";
-import { useAppSelector } from "./redux/hooks";
-import { selectContent } from "./redux/contentReducer";
+import { useAppSelector } from "../redux/hooks";
+import { selectContent } from "../redux/contentReducer";
 
 export const ContentList: FC = () => {
     const { data, isLoading, error } = useAppSelector(selectContent)
